@@ -32,6 +32,7 @@ matplotlib == 3.9.2
 
 
 **Usage**
+
 Open main_BOC-SOFTWARE.ipynb in Jupyter Notebook
 
 Run all cells sequentially
@@ -41,6 +42,7 @@ The notebook will generate:
 BOC curves, Likelihood/Marginal ratio and Probability density functions for all 4 variables (replicating Figure 7 from the manuscript)
 
 Combination of two posterior probabilities of the different rank variables (replicating Figure 9 from the manuscript)
+
 
 **Implementation Details**
 
@@ -52,7 +54,9 @@ BOC curve generation
 
 Posterior distribution calculations
 
+
 **Output**
+
 Running the notebook will produce visualizations matching:
 
 Figure 7 
