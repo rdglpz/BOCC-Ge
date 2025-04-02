@@ -26,10 +26,9 @@ Jupyter Notebook
 
 Required Python packages
 
-pandas
-numpy
-matplotlib.pyplot
-importlib
+pandas == 2.2.3
+numpy == 2.0.2
+matplotlib == 3.9.2
 
 
 **Usage**
