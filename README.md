@@ -1,27 +1,61 @@
-# BOC-SOFTWARE
+# BOC Curve Generator
 
-This software generates the BOC curve for the databse in data folder.
+This software generates BOC curves and its associated probability density functions.
+It replicates two key figures from our scientific paper by generating Build-Out Curves (BOC) for urban growth analysis.
 
-The data folder includes the information of urban gain of Morelia Municipality that ocurs at the final of the interval 2018-2021, and the indepentent variables that represent the conditions at the initial of the time interval.
+**Dataset**
+The data folder contains information about urban growth in Morelia Municipality:
 
-The indepentent variables in Morelia_validation_X.csv
+Dependent variable (2018-2021 urban gain): Morelia_validation_Y.csv
 
-1 Travel Time
-2 Distance to Roads
-2 Distance to urban cover,
-3 Distance to protected areas.
+Independent variables (initial conditions at 2018): Morelia_validation_X.csv:
+
+1. Travel time
+
+2. Distance to roads
+
+3. Distance to urban cover
+
+4. Distance to protected areas
+
+**Requirements**
+
+Python 3.x
+
+Jupyter Notebook
+
+Required Python packages
+
+pandas
+numpy
+matplotlib.pyplot
+importlib
 
 
-The dependent variable urban gain is in Morelia_validation_Y.csv
+**Usage**
+Open main_BOC-SOFTWARE.ipynb in Jupyter Notebook
 
-In order to run the BOC software, you need to open and run the cells sequentially of the main_BOC-SOFTWARE.ipynb. 
+Run all cells sequentially
 
-This notebook generates the BOC curves and probability density functions the of 4 variables presented in the Figure 9 of the manuscript and the combination of the posteriors in figure 7.
+The notebook will generate:
 
-The main_BOC-SOFTWARE.ipynb imports the boc_analysis.py containing the functions to constructo the probability functions involved in the BOC curve presented in the manuscript.
+BOC curves, Likelihood/Marginal ratio and Probability density functions for all 4 variables (replicating Figure 7 from the manuscript)
 
+Combination of two posterior probabilities of the different rank variables (replicating Figure 9 from the manuscript)
 
+**Implementation Details**
 
+The core analysis functions are implemented in boc_analysis.py, which contains:
 
+Probability function construction
 
- 
+BOC curve generation
+
+Posterior distribution calculations
+
+**Output**
+Running the notebook will produce visualizations matching:
+
+Figure 7 
+
+Figure 9 
