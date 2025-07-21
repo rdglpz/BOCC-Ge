@@ -33,6 +33,10 @@ matplotlib == 3.9.2
 
 **Usage**
 
+Clone or download the project.
+
+Decompress the databse data.7z
+
 Open main_BOC-SOFTWARE.ipynb in Jupyter Notebook
 
 Run all cells sequentially
