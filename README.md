@@ -33,7 +33,7 @@ matplotlib == 3.9.2
 
 **Usage**
 
-Clone or download the project.
+Clone the project. ($git clone https://github.com/rdglpz/BOCC-Ge.git).
 
 Decompress the databse data.7z
 
